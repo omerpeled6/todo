@@ -2,20 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Google Translate */
+.skiptranslate {
+  display: none;
+  height: 0;
+  width: 0;
+  position: absolute;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.targetLanguage {
+  display: none;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Google Logo Hide */
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none;
+  height: 0;
+  width: 0;
 }
+
+/*  */
+.goog-te-gadget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2;
+}
+
+/* Select Language */
+.goog-te-combo {
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 1rem;
+  margin: 2;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Google Translate Finish */
